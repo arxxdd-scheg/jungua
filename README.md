@@ -1,2 +1,2 @@
-# jungua
-CLI-оболочка на python. 
+#№ jungua
+
