@@ -39,10 +39,10 @@ else:
     time.sleep(0.1)
     cls()
     while True:
-        print(Fore.GREEN + "l: " + Fore.WHITE + "enter your username")
+        print(Fore.GREEN + "ob: " + Fore.WHITE + "enter your username")
         winsound.Beep(1000, 300)
         winsound.Beep(1300, 400)
-        name = input(Fore.YELLOW + "lingua: " + Fore.WHITE)
+        name = input(Fore.YELLOW + "obiton name: " + Fore.WHITE)
         if name:
             write(name)
             break
