@@ -9,7 +9,7 @@ from colorama import Fore
 def cls():
     os.system('cls')
 def write(name):
-    with open("u.txt", "w", encoding="utf-8") as f:
+    with open("OBITON.txt", "w", encoding="utf-8") as f:
         f.write(name)
 def beep():
     winsound.Beep(700, 500)
@@ -17,7 +17,7 @@ def beeep():
     winsound.Beep(900, 300)
     winsound.Beep(1300, 300)
 
-if os.path.exists("OBITON.txt") and os.path.getsize("u.txt") > 0:
+if os.path.exists("OBITON.txt") and os.path.getsize("OBITON.txt") > 0:
     with open("u.txt", "r", encoding="utf-8") as file:
         name = file.read().strip()
 else:
