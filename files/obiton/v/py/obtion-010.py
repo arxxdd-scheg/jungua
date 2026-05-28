@@ -17,7 +17,7 @@ def beeep():
     winsound.Beep(900, 300)
     winsound.Beep(1300, 300)
 
-if os.path.exists("u.txt") and os.path.getsize("u.txt") > 0:
+if os.path.exists("OBITON.txt") and os.path.getsize("u.txt") > 0:
     with open("u.txt", "r", encoding="utf-8") as file:
         name = file.read().strip()
 else:
@@ -47,7 +47,7 @@ else:
             write(name)
             break
         else:
-            print(Fore.RED + "err: " + Fore.WHITE + "username not defined")
+            print(Fore.RED + "ERROR: " + Fore.WHITE + "username.ndefined")
             winsound.Beep(500, 500)
 cls()
 print(f"WELCOME, {name}!")
