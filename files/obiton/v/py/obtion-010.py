@@ -18,7 +18,7 @@ def beeep():
     winsound.Beep(1300, 300)
 
 if os.path.exists("OBITON.txt") and os.path.getsize("OBITON.txt") > 0:
-    with open("u.txt", "r", encoding="utf-8") as file:
+    with open("OBITON.txt", "r", encoding="utf-8") as file:
         name = file.read().strip()
 else:
     print("get.username:;")
